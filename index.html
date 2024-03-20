@@ -4,28 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campus Trend</title>
+    <meta name="description" content="Welcome to Campus Trend - the dynamic youth movement transforming ordinary students into fearless influencers of society. Join us now!">
+    <meta name="keywords" content="Campus Trend, youth movement, students, influencers, society">
+    <meta name="author" content="Your Name">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="container">
             <img src="Campus Trend.png" alt="Campus Trend Logo" class="logo">
-            <h1>Campus Trend</h1>
+            <h1 style="color: aliceblue;">Campus Trend</h1>
         </div>
     </header>
     <nav>
       <ul>
           <li><a href="upcoming_events.html">Upcoming Events</a></li>
           <li><a href="photos.html">Photos</a></li>
-          <li><a href="leaders.html">Leaders</a></li>
-          <li>
-              <a href="#">Serving Teams</a>
-              <ul>
-                  <li><a href="departments.html">Departments</a></li>
-                  <li><a href="join-team.html">Join a Serving Team</a></li>
-              </ul>
-          </li>
+          <li><a href="#leadership">Leaders</a></li>
+         
           <li><a href="magazine.html">Magazine</a></li>
+          <li><a href="DG.html">Join a DG</a></li>
+          <li>
+            <a href="#">Serving Teams</a>
+            <ul>
+                <li><a href="departments.html">Departments</a></li>
+                <li><a href="join-team.html">Join a Serving Team</a></li>
+            </ul>
+        </li>
           <!-- New content -->
           <li>
               <a href="#">About</a>
@@ -35,12 +40,15 @@
                   <li>
                       <a href="#">Branches</a>
                       <ul>
+                          <li><a href="#">Uon</a></li>
                           <li><a href="#">Kiambu Road</a></li>
                           <li><a href="#">Kabete</a></li>
+                          
                       </ul>
                   </li>
               </ul>
           </li>
+
           <!-- End of new content -->
       </ul>
   </nav>
@@ -63,17 +71,43 @@
             <!-- Add map or directions here -->
         </div>
     </section>
-    <section id="leadership">
+    <section  id="leadership" id="">
         <div class="container">
             <h2>Leadership Team</h2>
             <p>Meet the dedicated leaders who guide and inspire the Campus Trend movement:</p>
             <ul>
-                <li>John Doe - President</li>
-                <li>Jane Smith - Vice President</li>
-                <li>David Johnson - Secretary</li>
+                <li>
+                    <img src="Kendi.jpg" alt="Leader 1">
+                    <span>Kendi Mwenda - Lead Pastor</span>
+                </li>
+                <li>
+                    <img src="abbyb.jpg" alt="Leader 2">
+                    <span>Abigael Alexina</span>
+                </li>
+                <li>
+                    <img src="Bett.jpg" alt="Leader 3">
+                    <span>Emmanuel Bett- Music Team</span>
+                </li>
+                <li>
+                    <img src="Gucha.jpg" alt="Leader 2">
+                    <span>Gucha Duncan - Social Media and Publicity</span>
+                </li>
+                <li>
+                    <img src="leader3.jpg" alt="Leader 3">
+                    <span>Innocent Mwenda- Media Team</span>
+                </li>
+                <li>
+                    <img src="leader2.jpg" alt="Leader 2">
+                    <span>Francis Njomo -Sound Team</span>
+                </li>
+                <li>
+                    <img src="leader3.jpg" alt="Leader 3">
+                    <span>Hanako Mugo - Guest Experience</span>
+                </li>
                 <!-- Add more leaders as needed -->
             </ul>
         </div>
+        
     </section>
     <section id="testimonials">
         <div class="container">
@@ -107,7 +141,7 @@
             <p>Stay connected with Campus Trend on social media:</p>
             <ul>
                 <li>Facebook: <a href="#">@CampusTrendOfficial</a></li>
-                <li>Instagram: <a href="#">@CampusTrend</a></li>
+                <li>Instagram: <a href="#">@campustrendke</a></li>
                 <li>Twitter: <a href="#">@CampusTrend</a></li>
             </ul>
         </div>
@@ -128,27 +162,41 @@
             <h2>Events Calendar</h2>
             <p>Stay updated on our upcoming events and activities:</p>
             <ul>
-                <li>March 25, 2024 - Community Cleanup Day</li>
-                <li>April 10, 2024 - Leadership Workshop</li>
-                <li>April 20-22, 2024 - Youth Retreat</li>
+                <li>March 20, 2024 - Porndemic</li>
+                <li>Every Tuesday - Leader's Night</li>
+                <li></li>
                 <!-- Add more events to the list -->
             </ul>
-            <img class="eve" src="April at CT.png" alt="Event Image">
+            <img class="eve" src="Porn.jpg" alt="Event Image">
         </div>
     </section>
     <section id="newsletter">
         <div class="container">
             <h2>Newsletter Signup</h2>
             <p>Subscribe to our newsletter to receive updates, announcements, and inspirational messages:</p>
-            <form action="#" method="post">
+            <form class="contactForm" action="#" method="post">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" placeholder="Enter your email">
                 <button type="submit">Subscribe</button>
             </form>
         </div>
     </section>
+    <div class="container">
+
+        <div id="map"></div>
+    </div>
     <!-- End of new content -->
     <script src="script.js"></script>
+    <script>
+         // JavaScript for Interactive Map
+        function initMap() {
+            const map = new google.maps.Map(document.getElementById("map"), {
+                center: { lat: -34.397, lng: 150.644 },
+                zoom: 8,
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
 </body>
 </html>
 
