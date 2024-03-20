@@ -1,13 +1,25 @@
 document.addEventListener("DOMContentLoaded", function () {
   const slideshow = document.getElementById("slideshow");
   const images = [
+    "Sleepover.heic",
+    "group.heic",
+    "Bett_inno.heic",
+    "Bett_yvonne.heic",
+    "CT.heic",
+    "CT1.heic",
+    "Jayv_Yvonne.heic",
+    "gathering.heic",
+    "gathering 2.heic",
+    "Gucha_jayv.heic",
     "Bett.jpg",
     "April at CT.png",
     "MANNUBETT.png",
     "MANNUUBETT.png",
     "Jayv.jpg",
     "wNight.jpg",
-    "Porn.jpg"
+    "Porn.jpg",
+    "",
+    "",
     // Add more image URLs here
   ];
   let currentIndex = 0;

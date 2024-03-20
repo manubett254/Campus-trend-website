@@ -14,7 +14,7 @@ nav ul li:hover {
 .eve { /* Combine slideshow and event image styles */
   width: 30%;
   display: block;
-  animation: slide 4s infinite;
+  animation: slide 2s infinite;
   max-width: 400px; /* Adjust maximum width of the slideshow */
   margin: 20px auto; /* Center the slideshow horizontally */
   text-align: center; /* Center the slideshow images */
