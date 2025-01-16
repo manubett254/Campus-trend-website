@@ -18,8 +18,11 @@ document.addEventListener("DOMContentLoaded", function () {
     "Jayv.jpg",
     "wNight.jpg",
     "Porn.jpg",
-    "",
-    "",
+    "BnW1.jpg",
+    "BnW4.jpg",
+    "BnW12.jpg",
+    "BnW13.jpg",
+    "BnW15.jpg"
     // Add more image URLs here
   ];
   let currentIndex = 0;
